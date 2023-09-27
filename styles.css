@@ -27,13 +27,13 @@ main {
 
 nav h1 a {
   text-decoration: none;
-  color: rgb(124, 208, 146);
+  color: rgb(124, 198, 208);
   margin-top: 20px;
   font-size: 25px;
 }
 
 nav h1 a:hover {
-  background-color: rgb(0, 0, 239);
+  background-color: rgb(239, 147, 0);
 }
 
 .nav-list {
