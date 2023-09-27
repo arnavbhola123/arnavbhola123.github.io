@@ -1,0 +1,169 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+/* navigation bar css */
+nav {
+  display: flex;
+  padding: 0.8em;
+  background-color: rgb(144, 0, 0);
+  margin-bottom: 2em;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+nav h1 a {
+  text-decoration: none;
+  color: rgb(124, 208, 146);
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+nav h1 a:hover {
+  background-color: rgb(156, 210, 30);
+}
+
+.nav-list {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.nav-list li a:hover {
+  background-color: chocolate;
+}
+
+/* about css */
+.about {
+  display: flex;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.about-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+/* portfolio css */
+.project-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10% 10% 100px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.project-details img {
+  width: 500px;
+}
+
+.project-details-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.project-details-text p {
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+main .resume * {
+  text-align: left;
+}
+
+.resume {
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.5;
+}
+
+.resume .section-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* footer  */
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.entry-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+#contact-form {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  width: 50%;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px auto;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
